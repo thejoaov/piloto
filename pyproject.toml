@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "piloto"
+version = "0.0.1"
+description = "IFPI turma 626 2024.2"
+authors = ["João Victor <jvictorsantos852@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+Django = "^5.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
