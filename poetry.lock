@@ -35,6 +35,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "lefthook"
+version = "1.8.1"
+description = "Git hooks manager. Fast, powerful, simple."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "lefthook-1.8.1-py3-none-any.whl", hash = "sha256:650bd88e955874d4f5b83f13598d18e8de6e66b098b1c4f2c35cecc01200ec44"},
+    {file = "lefthook-1.8.1.tar.gz", hash = "sha256:3bd4363902f003704ddb04c5e27aea945875d81f5b2f9f5ee8fab0eddc033516"},
+]
+
+[[package]]
 name = "psycopg"
 version = "3.2.3"
 description = "PostgreSQL database adapter for Python"
@@ -172,4 +183,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.13"
-content-hash = "3236b0a7e9fe69fb98f2a32366c94be2da42c31ce05e0cf45cae0c6b60e3cef7"
+content-hash = "2f1f3e22d7678c1171811304d634fd853efefbd45091f5bd10d005f01cc1ca1e"

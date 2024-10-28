@@ -18,7 +18,12 @@ psycopg-binary = "^3.2.3"
 ignore = "false"
 location = ".env"
 
+[tool.poetry.group.dev.dependencies]
+lefthook = "^1.8.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.lefthook]
+hooks = "lefthook.yml"
