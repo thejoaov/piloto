@@ -5,3 +5,7 @@ pre-commit:
       tags: backend
       run: poetry run pip freeze > requirements.txt
       stage: true
+    format:
+      tags: frontend
+      run: cd frontend && npm run format
+      stage: true
